@@ -38,7 +38,12 @@
   --mono:"SF Mono",Consolas,"JetBrains Mono","Courier New",monospace;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{overflow-x:hidden}
+/* 关键：grid / flex 的子项默认 min-width:auto，会被内容撑破容器 —— 全部归零 */
+.grid > *, .cats > *, .cases > *, .diffs > *, .f-grid > *,
+.hero-grid > *, .trust-grid > *, .g-row > *, .lk-head > *{min-width:0}
+p, h1, h2, h3, .lead, .hero-lead, .lk-cell, .cat-body p{overflow-wrap:anywhere}
 body{
   background:var(--bg);color:var(--text);line-height:1.75;overflow-x:hidden;
   font-family:"PingFang SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;
@@ -259,9 +264,39 @@ footer{border-top:1px solid var(--line);padding:52px 0 32px;font-size:13.5px;col
   section{padding:66px 0}
   .wrap{padding:0 18px}
   .trust-grid,.diffs,.g-row,.cats,.cases{grid-template-columns:1fr}
-  .hero-stats{flex-wrap:wrap;gap:26px}
   .cta-box{padding:42px 22px}
   .f-grid{grid-template-columns:1fr}
+
+  /* 导航：手机上必须瘦身，否则 logo 和按钮互相挤爆 */
+  .nav{height:auto;min-height:56px;gap:10px;flex-wrap:wrap;padding:9px 0}
+  .nav-cta{margin-left:auto}
+  .logo{font-size:15px;gap:9px;min-width:0}
+  .logo span small{display:none}
+  .logo-mark{width:28px;height:28px;font-size:15px;border-radius:7px}
+  .nav-cta{gap:8px}
+  .nav-cta .btn-ghost{display:none}
+  .nav-cta .btn{font-size:13px;padding:8px 14px;white-space:nowrap}
+
+  /* 首屏 */
+  .hero{padding:56px 0 60px}
+  .hero-lead{font-size:15.5px;margin:18px 0 26px}
+  .hero-actions{flex-direction:column;gap:10px}
+  .hero-actions .btn{width:100%;justify-content:center;white-space:nowrap;font-size:14.5px;padding:13px 18px}
+
+  /* 统计数字：改成 2×2 网格，否则第 4 个会溢出屏幕 */
+  .hero-stats{display:grid;grid-template-columns:1fr 1fr;gap:20px 16px;margin-top:34px;padding-top:26px}
+  .hero-stats .n{font-size:26px}
+
+  /* 工程视觉：手机上不能占满整屏，缩小并让标签留在容器内 */
+  .hero-visual{aspect-ratio:auto;height:290px;width:100%}
+  .hv-jib{left:6%;right:8%;top:26%}
+  .hv-mast{height:38%;bottom:14%}
+  .hv-base{width:60px;height:14px}
+  .hv-hook{left:48%;top:40%;height:62px}
+  /* 手机上空间太小：只留一条主标签，其余隐藏，避免被裁切 */
+  .hv-tag{font-size:10px;padding:6px 10px;white-space:nowrap}
+  .hv-tag.t2,.hv-tag.t3{display:none}
+  .hv-tag.t1{left:4%;bottom:16%}
 }
 </style>
 </head>
