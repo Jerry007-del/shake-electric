@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  width:1200px;height:630px;overflow:hidden;
+  background:#0A0E14;color:#E9EEF4;position:relative;
+  font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);background-size:60px 60px}
+.glow{position:absolute;width:640px;height:640px;border-radius:50%;top:-260px;right:-160px;background:radial-gradient(circle,rgba(245,158,11,.20),transparent 62%)}
+.glow2{position:absolute;width:460px;height:460px;border-radius:50%;bottom:-220px;left:-120px;background:radial-gradient(circle,rgba(56,189,248,.14),transparent 65%)}
+.wrap{position:relative;padding:64px 72px;height:100%;display:flex;flex-direction:column}
+.logo{display:flex;align-items:center;gap:14px;margin-bottom:auto}
+.mark{width:56px;height:56px;border-radius:14px;background:#F59E0B;color:#0A0E14;display:grid;place-items:center;font-weight:900;font-size:30px}
+.lname{font-size:26px;font-weight:800;letter-spacing:-.4px;line-height:1.15}
+.lname small{display:block;font-size:12px;font-weight:500;color:#5D6975;letter-spacing:3.5px;margin-top:3px}
+h1{font-size:66px;font-weight:800;line-height:1.14;letter-spacing:-2.5px;margin:0 0 22px}
+h1 em{font-style:normal;color:#F59E0B}
+.sub{font-size:22px;color:#8C99A8;margin-bottom:34px;letter-spacing:.5px}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.tag{font-size:16px;padding:8px 17px;border-radius:8px;background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.13);color:#C6D0DC}
+.tag.hi{background:rgba(245,158,11,.14);border-color:rgba(245,158,11,.4);color:#FBBF24}
+.foot{display:flex;align-items:flex-end;justify-content:space-between;border-top:1px solid rgba(255,255,255,.11);padding-top:26px}
+.phone{font-family:"SF Mono",Consolas,monospace;font-size:27px;font-weight:700;color:#F59E0B;letter-spacing:.5px}
+.phone small{display:block;font-size:14px;color:#5D6975;font-weight:400;letter-spacing:2px;margin-bottom:4px}
+.desc{font-size:16px;color:#5D6975;text-align:right;line-height:1.8}
+.jib{position:absolute;right:78px;top:196px;width:330px;height:10px;background:linear-gradient(90deg,#3E4C5C,#5A6A7D);border-radius:2px}
+.jib::after{content:"";position:absolute;right:-3px;top:-5px;width:20px;height:20px;background:#F59E0B;border-radius:3px}
+.jib::before{content:"";position:absolute;left:16%;right:12%;top:10px;height:34px;border-left:1px solid rgba(255,255,255,.15);border-right:1px solid rgba(255,255,255,.15);transform:skewX(-24deg);transform-origin:top}
+.mast{position:absolute;right:88px;top:206px;bottom:120px;width:12px;background:linear-gradient(180deg,#4A5A6C,#2C3846);border-radius:2px}
+.hook{position:absolute;right:270px;top:236px;width:3px;height:96px;background:rgba(255,255,255,.18)}
+.hook::after{content:"";position:absolute;bottom:-16px;left:-8px;width:19px;height:19px;border:3px solid #F59E0B;border-radius:50% 50% 45% 45%;border-top-color:transparent}
+</style>
+</head>
+<body>
+  <div class="grid"></div><div class="glow"></div><div class="glow2"></div>
+  <div class="mast"></div><div class="jib"></div><div class="hook"></div>
+  <div class="wrap">
+    <div class="logo">
+      <div class="mark">S</div>
+      <div class="lname">河南沙克电器自动化有限公司<small>SHAKE ELECTRICAL AUTOMATION</small></div>
+    </div>
+    <h1>起重机的电气系统，<br><em>我们成套给</em></h1>
+    <div class="sub">电器柜 · 驾驶室 · DK箱 · 起重电气元件 —— 支持按机型与工况个性化定制</div>
+    <div class="tags">
+      <span class="tag hi">电器柜 / 成套电器</span>
+      <span class="tag hi">驾驶室 / 司机室</span>
+      <span class="tag hi">DK箱 / 接线箱</span>
+      <span class="tag">凸轮控制器</span>
+      <span class="tag">变频器</span>
+      <span class="tag">工业遥控器</span>
+      <span class="tag">超载限制器</span>
+    </div>
+    <div class="foot">
+      <div class="phone"><small>SERVICE HOTLINE</small>4006-173-173</div>
+      <div class="desc">机械电气设备制造 · 销售 · 修理<br>配电开关控制设备制造 · 电力电子元器件制造</div>
+    </div>
+  </div>
+</body>
+</html>
