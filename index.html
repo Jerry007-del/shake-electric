@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>河南沙克电器自动化有限公司 | 电器柜 · 驾驶室 · DK箱 · 起重电气成套</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="河南沙克电器自动化有限公司 | 电器柜 · 驾驶室 · DK箱 · 起重电气成套">
+<meta property="og:description" content="专业制造与销售电器柜、司机室驾驶室、DK箱及起重电气元件，支持按机型与工况个性化定制。热线 4006-173-173">
+<meta property="og:locale" content="zh_CN">
+<meta name="theme-color" content="#0A0E14">
+<meta name="keywords" content="电器柜,电控柜,驾驶室,司机室,DK箱,凸轮控制器,变频器,工业遥控器,超载限制器,起重机电气,电气自动化,河南沙克">
+<link rel="canonical" href="https://jerry007-del.github.io/shake-electric/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "河南沙克电器自动化有限公司",
+  "description": "机械电气设备制造与销售、电气设备销售与修理、配电开关控制设备制造、电力电子元器件制造；主营电器柜、驾驶室、DK箱与起重电气元件，支持个性化定制。",
+  "telephone": "4006-173-173",
+  "url": "https://jerry007-del.github.io/shake-electric/",
+  "address": { "@type": "PostalAddress", "addressRegion": "河南省", "addressLocality": "郑州市", "streetAddress": "待补充" },
+  "contactPoint": { "@type": "ContactPoint", "telephone": "4006-173-173", "contactType": "customer service", "areaServed": "CN" }
+}
+</script>
+<meta name="description" content="河南沙克电器自动化有限公司：专业制造与销售电器柜、司机室驾驶室、DK箱及起重电气元件（凸轮控制器、变频器、工业遥控器、超载限制器等），支持按机型与工况的个性化定制。服务热线 4006-173-173。">
+<style>
+:root{
+  --bg:#0A0E14; --bg2:#0E141C; --surface:#131A23; --surface2:#18212C;
+  --line:rgba(255,255,255,.085); --line2:rgba(255,255,255,.16);
+  --text:#E9EEF4; --muted:#8C99A8; --dim:#5D6975;
+  --accent:#F59E0B; --accent-dim:rgba(245,158,11,.14);
+  --steel:#3E4C5C;
+  --mono:"SF Mono",Consolas,"JetBrains Mono","Courier New",monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);color:var(--text);line-height:1.75;overflow-x:hidden;
+  font-family:"PingFang SC","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+/* 工程图纸网格纹理 */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
+  background-size:56px 56px;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+a{color:inherit;text-decoration:none}
+
+/* ============ 导航 ============ */
+header{
+  position:sticky;top:0;z-index:60;background:rgba(10,14,20,.86);
+  backdrop-filter:blur(16px);border-bottom:1px solid var(--line);
+}
+.nav{display:flex;align-items:center;gap:28px;height:66px}
+.logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:17px;letter-spacing:-.2px}
+.logo-mark{
+  width:32px;height:32px;border-radius:8px;background:var(--accent);color:#0A0E14;
+  display:grid;place-items:center;font-weight:900;font-size:17px;
+}
+.logo span small{display:block;font-size:10.5px;font-weight:500;color:var(--dim);letter-spacing:1.5px;line-height:1}
+.nav-links{display:flex;gap:26px;font-size:14px;color:var(--muted)}
+.nav-links a{transition:.2s;position:relative}
+.nav-links a:hover{color:var(--text)}
+.nav-cta{margin-left:auto;display:flex;align-items:center;gap:12px}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;
+  padding:10px 20px;border-radius:8px;transition:.22s;border:1px solid transparent;cursor:pointer;
+}
+.btn-primary{background:var(--accent);color:#0A0E14}
+.btn-primary:hover{background:#FBBF24;transform:translateY(-1px);box-shadow:0 8px 24px rgba(245,158,11,.28)}
+.btn-ghost{border-color:var(--line2);color:var(--text)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+.btn-lg{padding:14px 30px;font-size:15.5px}
+
+/* ============ 通用区块 ============ */
+section{padding:96px 0;position:relative}
+.sec-head{margin-bottom:46px;max-width:720px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:2.5px;
+  color:var(--accent);font-weight:600;margin-bottom:14px;font-family:var(--mono);
+}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--accent)}
+h1{font-size:clamp(32px,5.4vw,54px);font-weight:800;line-height:1.16;letter-spacing:-1.4px}
+h2{font-size:clamp(25px,3.6vw,36px);font-weight:750;line-height:1.28;letter-spacing:-.6px}
+h3{font-size:17px;font-weight:700;margin-bottom:8px}
+.lead{color:var(--muted);font-size:16px;margin-top:18px;max-width:620px}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head.center .eyebrow::before{display:none}
+.sec-head.center .lead{margin-left:auto;margin-right:auto}
+.hl{color:var(--accent)}
+
+/* ============ Hero ============ */
+.hero{padding:110px 0 88px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:64px;align-items:center}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero-lead{color:var(--muted);font-size:17px;margin:22px 0 32px;max-width:520px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.hero-stats{display:flex;gap:38px;margin-top:46px;padding-top:30px;border-top:1px solid var(--line)}
+.hero-stats .n{font-family:var(--mono);font-size:30px;font-weight:700;color:var(--text);line-height:1.1}
+.hero-stats .n small{font-size:15px;color:var(--accent);margin-left:2px}
+.hero-stats .l{font-size:12.5px;color:var(--dim);margin-top:4px}
+
+/* 工程感视觉：抽象的起重机结构 + 动臂 */
+.hero-visual{position:relative;aspect-ratio:1/1.02}
+.hv-frame{
+  position:absolute;inset:0;border:1px solid var(--line);border-radius:16px;
+  background:
+    radial-gradient(circle at 68% 22%,rgba(245,158,11,.16),transparent 52%),
+    linear-gradient(160deg,var(--surface),var(--bg2));
+  overflow:hidden;
+}
+.hv-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:34px 34px;opacity:.7}
+/* 起重臂 */
+.hv-jib{position:absolute;left:8%;right:6%;top:31%;height:11px;background:linear-gradient(90deg,var(--steel),#59697C);border-radius:2px;transform-origin:left center;animation:swing 7s ease-in-out infinite}
+.hv-jib::after{content:"";position:absolute;right:-2px;top:-4px;width:16px;height:19px;background:var(--accent);border-radius:3px}
+.hv-jib::before{
+  content:"";position:absolute;left:12%;right:10%;top:11px;height:30px;
+  border-left:1px solid rgba(255,255,255,.16);border-right:1px solid rgba(255,255,255,.16);
+  transform:skewX(-24deg);transform-origin:top;
+}
+.hv-mast{position:absolute;left:6%;bottom:16%;width:13px;background:linear-gradient(180deg,#4A5A6C,#2C3846);border-radius:2px;height:44%}
+.hv-base{position:absolute;left:2%;bottom:11%;width:74px;height:16px;background:#2C3846;border-radius:3px}
+.hv-hook{position:absolute;left:52%;top:46%;width:3px;height:78px;background:rgba(255,255,255,.2)}
+.hv-hook::after{content:"";position:absolute;bottom:-13px;left:-7px;width:17px;height:17px;border:3px solid var(--accent);border-radius:50% 50% 45% 45%;border-top-color:transparent}
+.hv-tag{
+  position:absolute;padding:9px 13px;background:rgba(10,14,20,.92);border:1px solid var(--line2);
+  border-radius:9px;font-family:var(--mono);font-size:11.5px;color:var(--muted);
+}
+.hv-tag b{color:var(--text);font-weight:600}
+.hv-tag.t1{left:6%;bottom:30%}
+.hv-tag.t2{right:7%;top:13%;border-color:rgba(245,158,11,.4)}
+.hv-tag.t2 b{color:var(--accent)}
+.hv-tag.t3{right:9%;bottom:22%}
+@keyframes swing{0%,100%{transform:rotate(-1.6deg)}50%{transform:rotate(1.6deg)}}
+
+/* ============ 信任锚点 ============ */
+.trust{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:44px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.trust-item{text-align:center;padding:8px}
+.trust-item .n{font-family:var(--mono);font-size:34px;font-weight:700;color:var(--accent);line-height:1}
+.trust-item .n small{font-size:16px}
+.trust-item .l{font-size:13.5px;color:var(--muted);margin-top:8px}
+
+/* ============ 速查表 ============ */
+.lookup{background:var(--bg2);border-bottom:1px solid var(--line)}
+.lookup-box{
+  background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+}
+.lk-head{display:grid;grid-template-columns:1.4fr 1fr 1.4fr auto;gap:1px;background:var(--line)}
+.lk-cell{background:var(--surface);padding:15px 20px;font-size:13.5px}
+.lk-cell.head{background:var(--surface2);color:var(--dim);font-size:12px;letter-spacing:1px;font-weight:600}
+.lk-cell .model{font-family:var(--mono);color:var(--accent);font-weight:600}
+.lk-cell .ok{color:#4ADE80}
+.lk-cell a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.lk-note{padding:15px 20px;font-size:13px;color:var(--dim);background:var(--surface)}
+.lk-search{display:flex;gap:12px;padding:18px 20px;border-bottom:1px solid var(--line);background:var(--surface2);align-items:center;flex-wrap:wrap}
+.lk-search input{
+  flex:1;min-width:220px;background:var(--bg);border:1px solid var(--line2);border-radius:8px;
+  padding:10px 14px;color:var(--text);font-family:var(--mono);font-size:14px;outline:none;
+}
+.lk-search input:focus{border-color:var(--accent)}
+
+/* ============ 产品网格 ============ */
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cat{
+  background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  transition:.28s;position:relative;cursor:pointer;
+}
+.cat:hover{border-color:var(--accent);transform:translateY(-4px)}
+.cat-img{
+  aspect-ratio:16/10;background:
+    linear-gradient(140deg,var(--surface2),#0F151D);
+  display:grid;place-items:center;position:relative;overflow:hidden;
+}
+.cat-img::after{
+  content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:22px 22px;
+}
+.cat-glyph{font-size:40px;filter:drop-shadow(0 4px 14px rgba(0,0,0,.5));position:relative;z-index:1}
+.cat-body{padding:18px 20px}
+.cat-body p{font-size:13.5px;color:var(--muted);margin-bottom:12px}
+.cat-meta{display:flex;gap:8px;flex-wrap:wrap}
+.tag{font-family:var(--mono);font-size:11px;padding:3px 9px;border-radius:5px;background:rgba(255,255,255,.05);color:var(--muted);border:1px solid var(--line)}
+.tag.hi{background:var(--accent-dim);color:var(--accent);border-color:rgba(245,158,11,.3)}
+.cat-link{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--accent);font-weight:600;margin-top:14px}
+
+/* ============ 差异化 ============ */
+.diffs{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.diff{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px 22px;position:relative}
+.diff::before{content:"";position:absolute;top:0;left:22px;width:34px;height:2px;background:var(--accent)}
+.diff .no{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:2px;margin-bottom:12px}
+.diff p{font-size:13.5px;color:var(--muted);margin-top:8px}
+
+/* ============ 场景案例 ============ */
+.cases{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.case{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px 22px;display:flex;flex-direction:column;gap:14px}
+.case-icon{width:42px;height:42px;border-radius:10px;background:var(--accent-dim);border:1px solid rgba(245,158,11,.28);display:grid;place-items:center;font-size:19px}
+.case h3{font-size:16px}
+.case p{font-size:13.5px;color:var(--muted);flex:1}
+.case-res{border-top:1px solid var(--line);padding-top:13px;font-size:13px}
+.case-res b{color:var(--accent);font-family:var(--mono)}
+
+/* ============ 保障 ============ */
+.guarantee{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.g-row{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.g-item .k{font-family:var(--mono);font-size:26px;font-weight:700;color:var(--text);margin-bottom:6px}
+.g-item .k small{font-size:14px;color:var(--accent)}
+.g-item p{font-size:13.5px;color:var(--muted)}
+
+/* ============ CTA ============ */
+.cta{position:relative;overflow:hidden}
+.cta-box{
+  background:linear-gradient(135deg,var(--surface),var(--surface2));
+  border:1px solid var(--line2);border-radius:20px;padding:60px 48px;text-align:center;position:relative;overflow:hidden;
+}
+.cta-box::before{
+  content:"";position:absolute;width:420px;height:420px;border-radius:50%;
+  background:radial-gradient(circle,rgba(245,158,11,.14),transparent 65%);
+  top:-190px;right:-120px;
+}
+.cta-box h2{position:relative}
+.cta-box p{color:var(--muted);margin:16px auto 30px;max-width:520px;position:relative}
+.cta-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;position:relative}
+.cta-phone{font-family:var(--mono);font-size:15px;color:var(--dim);margin-top:22px;position:relative}
+
+/* ============ 页脚 ============ */
+footer{border-top:1px solid var(--line);padding:52px 0 32px;font-size:13.5px;color:var(--dim)}
+.f-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px;margin-bottom:38px}
+.f-col h4{font-size:13px;color:var(--text);margin-bottom:14px;font-weight:650}
+.f-col a{display:block;padding:5px 0;transition:.2s}
+.f-col a:hover{color:var(--accent)}
+.f-bottom{border-top:1px solid var(--line);padding-top:24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12.5px}
+
+/* ============ 动效 ============ */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s cubic-bezier(.22,.8,.3,1),transform .7s cubic-bezier(.22,.8,.3,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ============ 响应式 ============ */
+@media(max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:44px}
+  .hero-visual{max-width:480px;margin:0 auto;width:100%}
+  .trust-grid,.diffs,.g-row{grid-template-columns:repeat(2,1fr)}
+  .cats,.cases{grid-template-columns:repeat(2,1fr)}
+  .f-grid{grid-template-columns:1fr 1fr}
+  .nav-links{display:none}
+  .lk-head{grid-template-columns:1fr}
+  .lk-cell.head{display:none}
+}
+@media(max-width:640px){
+  section{padding:66px 0}
+  .wrap{padding:0 18px}
+  .trust-grid,.diffs,.g-row,.cats,.cases{grid-template-columns:1fr}
+  .hero-stats{flex-wrap:wrap;gap:26px}
+  .cta-box{padding:42px 22px}
+  .f-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ========== 导航 ========== -->
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#">
+      <span class="logo-mark">S</span>
+      <span>沙克电气<span style="color:var(--dim);font-weight:500"> SHAKE</span><small>ELECTRICAL AUTOMATION</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#lookup">选型速查</a>
+      <a href="#cats">业务范围</a>
+      <a href="#why">为什么选我们</a>
+      <a href="#cases">应用场景</a>
+      <a href="#guarantee">交付保障</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost" href="tel:4006173173">4006-173-173</a>
+      <a class="btn btn-primary" href="#cta">立即询价</a>
+    </div>
+  </div>
+</header>
+
+<!-- ========== Hero ========== -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">电气自动化成套 · 河南沙克</div>
+      <h1>起重机的电气系统，<br><em>我们成套给</em></h1>
+      <p class="hero-lead">电器柜 · 司机室驾驶室 · DK箱 · 起重电气元件 —— 从元件选型、柜体成套到联调交付一站完成，支持按机型与工况的个性化定制。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" href="#lookup">按需求选方案 →</a>
+        <a class="btn btn-ghost btn-lg" href="#cta">电话 4006-173-173</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="n">200<small>万</small></div><div class="l">注册资本</div></div>
+        <div><div class="n">4<small>大板块</small></div><div class="l">成套 / 定制 / 销售 / 修理</div></div>
+        <div><div class="n">4006<small>-</small></div><div class="l">全国服务热线</div></div>
+        <div><div class="n">173<small>-</small></div><div class="l">专线坐席</div></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hv-frame">
+        <div class="hv-grid"></div>
+        <div class="hv-mast"></div>
+        <div class="hv-base"></div>
+        <div class="hv-jib"></div>
+        <div class="hv-hook"></div>
+        <div class="hv-tag t1">配套 <b>电器柜 · 驾驶室 · DK箱</b></div>
+        <div class="hv-tag t2">制造 <b>配电开关控制设备</b></div>
+        <div class="hv-tag t3">专线 <b>4006-173-173</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 信任锚点 ========== -->
+<section class="trust">
+  <div class="wrap trust-grid">
+    <div class="trust-item"><div class="n">制造</div><div class="l">机械电气设备制造</div></div>
+    <div class="trust-item"><div class="n">销售</div><div class="l">电气设备销售</div></div>
+    <div class="trust-item"><div class="n">修理</div><div class="l">电气设备修理</div></div>
+    <div class="trust-item"><div class="n">定制</div><div class="l">按机型 / 工况个性化</div></div>
+  </div>
+</section>
+
+<!-- ========== 适配速查（杀手功能）============ -->
+<section class="lookup" id="lookup">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">选型速查</div>
+      <h2>说出你的<span class="hl">需求和机型</span>，我们给成套方案</h2>
+      <p class="lead">不用自己猜规格。选一个场景，我们告诉你需要哪几样东西、适配哪些机型、大概多久能到。</p>
+    </div>
+
+    <div class="lookup-box">
+      <div class="lk-search">
+        <input placeholder="输入你的需求（如 变频改造 / 换驾驶室 / 备件急用）或机型" id="lkInput">
+        <button class="btn btn-primary" id="lkBtn">查询</button>
+        <span style="font-size:13px;color:var(--dim)">找不到？<a href="#cta" style="color:var(--accent)">直接把型号发给我们</a></span>
+      </div>
+      <div class="lk-head">
+        <div class="lk-cell head">你的需求 / 场景</div>
+        <div class="lk-cell head">推荐成套方案</div>
+        <div class="lk-cell head">适配机型</div>
+        <div class="lk-cell head">交期</div>
+      </div>
+      <div id="lkRows">
+        <div class="lk-cell">起重机<span class="model">变频改造</span></div>
+        <div class="lk-cell">变频控制柜 + 司机室控制屏 + 电阻器</div>
+        <div class="lk-cell">【填：QTZ / QY 系列】</div>
+        <div class="lk-cell">【填：X 天】</div>
+        <div class="lk-cell">更换<span class="model">驾驶室</span></div>
+        <div class="lk-cell">司机室总成 + 控制屏 + 联动台</div>
+        <div class="lk-cell">【填：QTZ / QY 系列】</div>
+        <div class="lk-cell">【填：X 天】</div>
+        <div class="lk-cell"><span class="model">无线 / 远程操作</span></div>
+        <div class="lk-cell">工业遥控器 + 接收器 + 控制柜改造</div>
+        <div class="lk-cell">【填：通用】</div>
+        <div class="lk-cell">【填：X 天】</div>
+        <div class="lk-cell">安全<span class="model">超载保护</span></div>
+        <div class="lk-cell">超载限制器 + 电气成套</div>
+        <div class="lk-cell">【填：通用】</div>
+        <div class="lk-cell">【填：X 天】</div>
+        <div class="lk-cell"><span class="model">DK箱 / 接线箱</span></div>
+        <div class="lk-cell">DK箱定制 + 电缆与端子配套</div>
+        <div class="lk-cell">【填：按图定制】</div>
+        <div class="lk-cell">【填：X 天】</div>
+      </div>
+      <div class="lk-note">💡 表格内容按实际供货方案填写；前端已内置模糊搜索逻辑，输入关键词即自动过滤。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 产品分类 ========== -->
+<section id="cats">
+  <div class="wrap">
+    <div class="sec-head center">
+      <div class="eyebrow">业务体系</div>
+      <h2>从<span class="hl">柜体到元件</span>，电气全链条自制</h2>
+      <p class="lead">电气柜、驾驶室、DK箱与起重电气元件，一个供应商配齐，省掉多方对接与责任扯皮</p>
+    </div>
+
+    <div class="cats">
+      <div class="cat">
+        <div class="cat-img"><span class="cat-glyph">🗄️</span></div>
+        <div class="cat-body">
+          <h3>电器柜 · 成套电器</h3>
+          <p>电控柜、配电柜、变频控制柜、起重控制柜、司机室控制柜 —— 按机型与工况定制柜体、元件与接线方案。</p>
+          <div class="cat-meta"><span class="tag hi">核心业务</span><span class="tag">定制</span><span class="tag">成套交付</span></div>
+          <div class="cat-link">查看详情 →</div>
+        </div>
+      </div>
+
+      <div class="cat">
+        <div class="cat-img"><span class="cat-glyph">🎛️</span></div>
+        <div class="cat-body">
+          <h3>驾驶室 · 司机室</h3>
+          <p>起重司机室、司机室控制屏、联动台 —— 视野、操控手感、人机工程均可按实际工况调整。</p>
+          <div class="cat-meta"><span class="tag hi">核心业务</span><span class="tag">按图定制</span><span class="tag">可升级</span></div>
+          <div class="cat-link">查看详情 →</div>
+        </div>
+      </div>
+
+      <div class="cat">
+        <div class="cat-img"><span class="cat-glyph">📦</span></div>
+        <div class="cat-body">
+          <h3>DK箱 · 接线箱</h3>
+          <p>DK 箱体及配套的电缆、端子与安装附件，可按现场空间与接口数量非标制作。</p>
+          <div class="cat-meta"><span class="tag hi">核心业务</span><span class="tag">非标定制</span><span class="tag">【请核对全称】</span></div>
+          <div class="cat-link">查看详情 →</div>
+        </div>
+      </div>
+
+      <div class="cat">
+        <div class="cat-img"><span class="cat-glyph">⚡</span></div>
+        <div class="cat-body">
+          <h3>起重电气元件</h3>
+          <p>凸轮控制器、变频器、工业遥控器、超载限制器、电阻器、电气元件 —— 原厂配套与通用替换。</p>
+          <div class="cat-meta"><span class="tag">现货</span><span class="tag">多品牌</span><span class="tag">可配柜</span></div>
+          <div class="cat-link">查看详情 →</div>
+        </div>
+      </div>
+
+      <div class="cat">
+        <div class="cat-img"><span class="cat-glyph">🔌</span></div>
+        <div class="cat-body">
+          <h3>线缆与配套材料</h3>
+          <p>电线电缆、端子、接线附件与安装辅材 —— 一次配齐，省去二次采购与型号对不上的麻烦。</p>
+          <div class="cat-meta"><span class="tag">现货</span><span class="tag">批量配货</span></div>
+          <div class="cat-link">查看详情 →</div>
+        </div>
+      </div>
+
+      <div class="cat">
+        <div class="cat-img"><span class="cat-glyph">⚙️</span></div>
+        <div class="cat-body">
+          <h3>个性化定制服务</h3>
+          <p>非标柜体、特殊接口、特殊环境（防腐 / 防爆 / 温控）—— 按图、按样、按参数做。</p>
+          <div class="cat-meta"><span class="tag hi">核心能力</span><span class="tag">按图定制</span><span class="tag">来图来样</span></div>
+          <div class="cat-link">聊聊你的需求 →</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 差异化 ========== -->
+<section id="why" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">为什么选沙克</div>
+      <h2>客户要的从来不只是"一件货"，而是<span class="hl">能装上、能用住</span></h2>
+    </div>
+    <div class="diffs">
+      <div class="diff">
+        <div class="no">01</div>
+        <h3>成套而非零卖</h3>
+        <p>柜体、电气元件、线缆、接头一次配齐 —— 不用在三家供应商之间来回对型号、担责任。</p>
+      </div>
+      <div class="diff">
+        <div class="no">02</div>
+        <h3>制造 · 销售 · 修理</h3>
+        <p>自建生产能力，元件与整机都能供货，也能承接旧设备维修与改造 —— 一家走到底。</p>
+      </div>
+      <div class="diff">
+        <div class="no">03</div>
+        <h3>个性化定制</h3>
+        <p>非标柜体、特殊接口、特殊环境要求，按图按样做 —— 这是标准品给不了的部分。</p>
+      </div>
+      <div class="diff">
+        <div class="no">04</div>
+        <h3>400 全国专线</h3>
+        <p>4006-173-173 专线坐席，选型问题、报价、交期、售后，一个电话找到人。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 应用场景 ========== -->
+<section id="cases">
+  <div class="wrap">
+    <div class="sec-head center">
+      <div class="eyebrow">应用场景</div>
+      <h2>在这些现场，<span class="hl">我们的电气系统正在跑</span></h2>
+      <p class="lead">整机配套、老旧改造、应急维修 —— 三类最常见的采购场景</p>
+    </div>
+    <div class="cases">
+      <div class="case">
+        <div class="case-icon">🏗️</div>
+        <h3>整机配套 · 新机出厂</h3>
+        <p>整机厂或安装公司配套采购：电器柜、司机室、DK箱与电气元件按机型成套供货，出厂前完成回路检查与联调。</p>
+        <div class="case-res">交付内容 <b>柜体 + 元件 + 联调</b></div>
+      </div>
+      <div class="case">
+        <div class="case-icon">🔄</div>
+        <h3>老旧改造 · 升级换代</h3>
+        <p>老设备加装变频调速、更换司机室与控制屏、加装无线遥控 —— 保留主体结构，只换电气系统，停机时间可控。</p>
+        <div class="case-res">改造周期 <b>【填：X 天】</b></div>
+      </div>
+      <div class="case">
+        <div class="case-icon">🛠️</div>
+        <h3>维修备件 · 应急替换</h3>
+        <p>设备突然罢工、配件临时缺货 —— 提供同规格或可替代方案的成套件，并承接电气设备修理业务。</p>
+        <div class="case-res">服务方式 <b>供 + 修</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 交付保障 ========== -->
+<section class="guarantee" id="guarantee">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">交付与保障</div>
+      <h2>把风险说在前面，别让你猜</h2>
+    </div>
+    <div class="g-row">
+      <div class="g-item"><div class="k">【填：X】<small>天</small></div><p>标准件发货时效，【填：城市/区域】次日达</p></div>
+      <div class="g-item"><div class="k">【填：X】<small>天</small></div><p>非标定制件生产周期，含图纸与样品确认</p></div>
+      <div class="g-item"><div class="k">【填：X】<small>个月</small></div><p>质保期限，人为损坏与私自改装除外</p></div>
+      <div class="g-item"><div class="k">4006<small>-</small></div><p>全国服务专线 4006-173-173，工作日专人接听</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA ========== -->
+<section class="cta" id="cta">
+  <div class="wrap">
+    <div class="cta-box">
+      <div class="eyebrow" style="justify-content:center">立即行动</div>
+      <h2>把机型和需求告诉我们，<span class="hl">方案、报价、交期一次给你</span></h2>
+      <p>不用你自己比对规格和图纸。告诉我们起重机型号、要解决什么问题（配套 / 改造 / 备件），我们直接给成套建议与报价。</p>
+      <div class="cta-actions">
+        <a class="btn btn-primary btn-lg" href="tel:4006173173">电话咨询 · 4006-173-173</a>
+        <a class="btn btn-ghost btn-lg" href="#">加微信 · 【填：微信号】</a>
+      </div>
+      <div class="cta-phone">河南沙克电器自动化有限公司 ｜ 【填：公司地址】 ｜ 工作日 8:00–18:00</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 页脚 ========== -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-col">
+        <a class="logo" href="#" style="margin-bottom:14px">
+          <span class="logo-mark">S</span>
+          <span>沙克电气<span style="color:var(--dim);font-weight:500"> SHAKE</span><small>ELECTRICAL AUTOMATION</small></span>
+        </a>
+        <p style="max-width:300px;line-height:1.8">河南沙克电器自动化有限公司 —— 机械电气设备制造与销售、电气设备销售与修理、配电开关控制设备制造、电力电子元器件制造。起重机电气成套与个性化定制。</p>
+      </div>
+      <div class="f-col">
+        <h4>产品分类</h4>
+        <a href="#">电器柜 / 成套电器</a><a href="#">驾驶室 / 司机室</a><a href="#">DK箱 / 接线箱</a>
+        <a href="#">起重电气元件</a><a href="#">线缆与配套</a><a href="#">个性化定制</a>
+      </div>
+      <div class="f-col">
+        <h4>快速入口</h4>
+        <a href="#lookup">适配速查表</a><a href="#">常见型号大全</a><a href="#">发货与物流</a>
+        <a href="#">质保与售后</a><a href="#">安装指导</a>
+      </div>
+      <div class="f-col">
+        <h4>联系我们</h4>
+        <a href="tel:4006173173">电话：<span style="font-family:var(--mono)">4006-173-173</span></a>
+        <a href="#">微信：<span style="font-family:var(--mono)">【填：微信号】</span></a>
+        <a href="#">邮箱：<span style="font-family:var(--mono)">【填：邮箱】</span></a>
+        <a href="#">地址：<span style="font-family:var(--mono)">【填：详细地址】</span></a>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© 2026 河南沙克电器自动化有限公司</span>
+      <span>【填：ICP 备案号】 ｜ 【填：公司主体信息】</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ============ 滚动淡入 ============
+const io = new IntersectionObserver((es)=>{
+  es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+},{threshold:.12});
+document.querySelectorAll('.sec-head,.cat,.diff,.case,.g-item,.trust-item,.lk-head,.lookup-box').forEach(el=>io.observe(el));
+
+// ============ 适配速查：模糊过滤 ============
+const lkInput=document.getElementById('lkInput');
+const lkRows=document.getElementById('lkRows');
+function filterLK(){
+  const q=(lkInput.value||'').trim().toLowerCase();
+  const cells=[...lkRows.children];
+  if(!q){ cells.forEach(c=>c.style.display=''); return; }
+  for(let i=0;i<cells.length;i+=4){
+    const group=cells.slice(i,i+4).map(c=>c.textContent).join(' ').toLowerCase();
+    const hit=group.includes(q);
+    cells.slice(i,i+4).forEach(c=>c.style.display=hit?'':'none');
+  }
+}
+lkInput.addEventListener('input',filterLK);
+document.getElementById('lkBtn').addEventListener('click',filterLK);
+
+// ============ 数字滚动 ============
+const nums=document.querySelectorAll('.trust-item .n');
+const nio=new IntersectionObserver((es)=>{
+  es.forEach(e=>{
+    if(!e.isIntersecting) return;
+    const el=e.target; nio.unobserve(el);
+    const txt=el.textContent;
+    if(/[0-9]/.test(txt) && !txt.includes('【')){
+      const target=parseFloat(txt.replace(/[^\d.]/g,''));
+      if(!isNaN(target)){
+        let cur=0; const dur=1200; const t0=performance.now();
+        const step=(now)=>{
+          const p=Math.min((now-t0)/dur,1);
+          cur=target*(1-Math.pow(1-p,3));
+          el.textContent=el.textContent.replace(/\d+(\.\d+)?/,cur.toFixed(0));
+          if(p<1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      }
+    }
+  });
+},{threshold:.5});
+nums.forEach(n=>nio.observe(n));
+</script>
+</body>
+</html>
