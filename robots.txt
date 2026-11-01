@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://jerry007-del.github.io/shake-electric/sitemap.xml
+Sitemap: https://shake-electric.com/sitemap.xml
